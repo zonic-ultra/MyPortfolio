@@ -207,6 +207,8 @@ section {
   color: #2e3a48;
 }
 .typing-text {
+  margin: 0 auto 2rem auto; /* top, right, bottom, left */
+  text-align: center;
   font-family: monospace;
   white-space: nowrap;
   overflow: hidden;
@@ -463,7 +465,7 @@ article {
   text-align: start;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 1px;
+  gap: 7px;
   justify-content: space-around;
 }
 .icon {
