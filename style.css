@@ -63,13 +63,25 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
+/* .logo {
   font-size: 2rem;
   color: #eeeeee;
 }
 
 .logo:hover {
   cursor: default;
+} */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
 }
 
 /* HAMBURGER MENU */
